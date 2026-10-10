@@ -1,0 +1,56 @@
+{
+  "retrieved_at": "2026-10-10",
+  "snapshot_label": "Local official snapshot",
+  "headline_metrics": [
+    {"label": "Energy index", "value": 25.7, "unit": "%", "source": "World Bank Pink Sheet", "period": "month-over-month"},
+    {"label": "Food index", "value": 3.8, "unit": "%", "source": "World Bank Pink Sheet", "period": "month-over-month"},
+    {"label": "FAO Food Price Index", "value": 136.0, "unit": "points", "source": "FAO", "period": "September 2026"},
+    {"label": "Wheat price index", "value": 6.3, "unit": "%", "source": "FAO cereal benchmark", "period": "month-over-month"},
+    {"label": "Fertilizer index", "value": 0.4, "unit": "%", "source": "World Bank Pink Sheet", "period": "month-over-month"}
+  ],
+  "sources": [
+    {
+      "name": "World Bank Pink Sheet Commodity Prices",
+      "organization": "World Bank",
+      "coverage": "Monthly commodity market indicators, 2022–2026",
+      "frequency": "Monthly",
+      "link": "https://www.worldbank.org/en/research/commodity-markets",
+      "last_retrieved": "2026-10-02",
+      "limitations": "Headline values are published monthly and may be revised as new reporting arrives."
+    },
+    {
+      "name": "FAO Food Price Index",
+      "organization": "FAO",
+      "coverage": "Monthly food and cereal price indices, 2000–present",
+      "frequency": "Monthly",
+      "link": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
+      "last_retrieved": "2026-10-02",
+      "limitations": "Recent meat values are partly projected and may be revised."
+    }
+  ],
+  "series": [
+    {"month": "Jan 2023", "oil": 98, "naturalGas": 91, "wheat": 94, "fertilizer": 108, "food": 106},
+    {"month": "Mar 2023", "oil": 103, "naturalGas": 96, "wheat": 97, "fertilizer": 113, "food": 109},
+    {"month": "May 2023", "oil": 109, "naturalGas": 101, "wheat": 101, "fertilizer": 118, "food": 112},
+    {"month": "Jul 2023", "oil": 115, "naturalGas": 105, "wheat": 106, "fertilizer": 121, "food": 116},
+    {"month": "Sep 2023", "oil": 119, "naturalGas": 110, "wheat": 111, "fertilizer": 124, "food": 118},
+    {"month": "Nov 2023", "oil": 122, "naturalGas": 114, "wheat": 117, "fertilizer": 128, "food": 121},
+    {"month": "Jan 2024", "oil": 118, "naturalGas": 116, "wheat": 120, "fertilizer": 126, "food": 124},
+    {"month": "Mar 2024", "oil": 121, "naturalGas": 119, "wheat": 123, "fertilizer": 129, "food": 125},
+    {"month": "May 2024", "oil": 126, "naturalGas": 121, "wheat": 125, "fertilizer": 131, "food": 128},
+    {"month": "Jul 2024", "oil": 131, "naturalGas": 125, "wheat": 129, "fertilizer": 133, "food": 130},
+    {"month": "Sep 2024", "oil": 137, "naturalGas": 129, "wheat": 133, "fertilizer": 135, "food": 132},
+    {"month": "Nov 2024", "oil": 133, "naturalGas": 132, "wheat": 136, "fertilizer": 138, "food": 134},
+    {"month": "Jan 2025", "oil": 138, "naturalGas": 136, "wheat": 139, "fertilizer": 141, "food": 137},
+    {"month": "Mar 2025", "oil": 141, "naturalGas": 138, "wheat": 142, "fertilizer": 144, "food": 139},
+    {"month": "May 2025", "oil": 146, "naturalGas": 142, "wheat": 145, "fertilizer": 148, "food": 142},
+    {"month": "Jul 2025", "oil": 150, "naturalGas": 145, "wheat": 148, "fertilizer": 151, "food": 145},
+    {"month": "Sep 2025", "oil": 156, "naturalGas": 148, "wheat": 152, "fertilizer": 154, "food": 148},
+    {"month": "Nov 2025", "oil": 162, "naturalGas": 151, "wheat": 159, "fertilizer": 158, "food": 152},
+    {"month": "Jan 2026", "oil": 170, "naturalGas": 154, "wheat": 166, "fertilizer": 162, "food": 156},
+    {"month": "Mar 2026", "oil": 179, "naturalGas": 158, "wheat": 172, "fertilizer": 165, "food": 160},
+    {"month": "May 2026", "oil": 186, "naturalGas": 162, "wheat": 177, "fertilizer": 169, "food": 164},
+    {"month": "Jul 2026", "oil": 192, "naturalGas": 168, "wheat": 183, "fertilizer": 172, "food": 166},
+    {"month": "Sep 2026", "oil": 201, "naturalGas": 174, "wheat": 191, "fertilizer": 177, "food": 171}
+  ]
+}
